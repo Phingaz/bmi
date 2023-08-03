@@ -4,7 +4,7 @@ import CakeIcon from '@mui/icons-material/Cake';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import ChildCareIcon from '@mui/icons-material/ChildCare';
 import GroupsIcon from '@mui/icons-material/Groups';
-import { FadeIn, Reveal } from './Reveal'
+import { Reveal } from './Reveal'
 
 
 export const Bottom = () => {
