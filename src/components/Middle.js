@@ -1,11 +1,11 @@
 import "./Middle.scss"
 import img from "../asset/sushi.png"
-import { FadeIn } from './Reveal'
+import { Reveal } from './Reveal'
 
 
 export const Middle = () => {
     return (
-        <FadeIn duration={1} delay={0.5}>
+        <Reveal duration={1} delay={0.5}>
             <section className='middle'>
                 <div className='img'>
                     <img src={img} alt='' />
@@ -19,7 +19,7 @@ export const Middle = () => {
                     </p>
                 </div>
             </section>
-        </FadeIn>
-        
+        </Reveal>
+
     )
 }
