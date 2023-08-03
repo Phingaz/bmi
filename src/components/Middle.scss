@@ -1,0 +1,100 @@
+.middle {
+    width: var(--wrapper-width);
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    margin-bottom: 30px;
+
+    @media (min-width: 900px) and (max-width: 1100px) {
+        gap: 20px;
+        padding: 0 30px;
+    }
+
+    @media (max-width: 900px) {
+        margin-top: 250px;
+        width: 100%;
+        height: auto;
+        padding: 0 40px;
+        gap: 1rem;
+        margin-bottom: 0;
+    }
+
+    @media (max-width: 700px) {
+        flex-direction: column;
+        margin-top: 270px;
+        width: 100%;
+        gap: 0;
+    }
+
+    .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 450px;
+        height: 350px;
+        border-radius: var(--bd-radius-lg);
+        background: rgb(225, 225, 255);
+        background: var(--card-color);
+        position: relative;
+
+        @media (max-width: 900px) {
+            scale: 0.8;
+        }
+
+        img {
+            width: 130%;
+            height: 135%;
+            object-fit: cover;
+            position: absolute;
+            bottom: -23px;
+            right: -30px;
+            scale: 0.9;
+
+            @media (min-width: 900px) and (max-width: 1100px) {
+                bottom: 0;
+                scale: 0.8;
+                width: 150%;
+                right: -65px;
+                bottom: -45px;
+            }
+        }
+    }
+
+    .txt {
+        width: 50%;
+
+        @media (max-width: 700px) {
+            padding: 0 40px;
+            width: 100%;
+        }
+
+        @media (max-width: 500px) {
+           padding: 0px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            line-height: 50px;
+            margin-bottom: 20px;
+            font-family: var(--font-heading);
+
+            @media (max-width: 900px) {
+                font-size: 2rem;
+                line-height: 1;
+            }
+        }
+
+        p {
+            font-weight: 600;
+            line-height: 1.25;
+
+            @media (max-width: 900px) {
+                font-size: 0.9rem;
+                line-height: 1.1;
+                color: var(--faded-color);
+            }
+        }
+    }
+}
