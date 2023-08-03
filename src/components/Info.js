@@ -2,11 +2,9 @@ import './Info.scss'
 import RamenDiningIcon from '@mui/icons-material/RamenDining';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import NightsStayIcon from '@mui/icons-material/NightsStay';
-import { Reveal } from './Reveal'
 
 export const Info = () => {
     return (
-        <Reveal duration={0.75} delay={0.1}>
             <section className='info'>
                 <div className='card'>
                     <RamenDiningIcon className='icon' />
@@ -39,6 +37,5 @@ export const Info = () => {
                 </div>
 
             </section>
-        </Reveal>
     )
 }

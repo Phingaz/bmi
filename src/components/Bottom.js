@@ -4,12 +4,9 @@ import CakeIcon from '@mui/icons-material/Cake';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import ChildCareIcon from '@mui/icons-material/ChildCare';
 import GroupsIcon from '@mui/icons-material/Groups';
-import { Reveal } from './Reveal'
-
 
 export const Bottom = () => {
     return (
-        <Reveal delay={0.3} duration={1}>
             <section className='bottom'>
                 <div className='txt'>
                     <h1>Limitations of BMI</h1>
@@ -69,6 +66,5 @@ export const Bottom = () => {
                 </div>
 
             </section>
-        </Reveal>
     )
 }

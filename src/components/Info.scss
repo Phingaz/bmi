@@ -11,8 +11,9 @@
     background: linear-gradient(150deg, var(--bg-color) 50%, #e1e1ff66 100%);
 
     @media (max-width: 900px) {
-        padding: 50px 0;
+        padding: 50px 20px;
         flex-direction: column;
+        background: transparent;
     }
 
 

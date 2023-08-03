@@ -1,6 +1,5 @@
 import './Intro.scss'
 import { useEffect, useState } from 'react'
-import { Reveal } from './Reveal'
 
 export const Intro = () => {
 
@@ -43,7 +42,6 @@ export const Intro = () => {
     }
 
     return (
-        <Reveal duration={0.75}>
             <section className='intro'>
 
                 <div className='main'>
@@ -136,7 +134,6 @@ export const Intro = () => {
                 </div>
 
             </section>
-        </Reveal>
         
     )
 }

@@ -101,36 +101,36 @@
                 gap: 16px;
                 width: 46%;
 
-                input[type='radio']:after {
-                    width: 15px;
-                    height: 15px;
-                    border-radius: 15px;
-                    top: -2px;
-                    left: -2px;
-                    position: relative;
-                    background-color: #d1d3d1;
-                    content: '';
-                    display: inline-block;
-                    visibility: visible;
-                    border: 2px solid white;
-                    cursor: pointer;
-                }
+                // input[type='radio']:after {
+                //     width: 15px;
+                //     height: 15px;
+                //     border-radius: 15px;
+                //     top: -2px;
+                //     left: -2px;
+                //     position: relative;
+                //     background-color: #d1d3d1;
+                //     content: '';
+                //     display: inline-block;
+                //     visibility: visible;
+                //     border: 2px solid white;
+                //     cursor: pointer;
+                // }
 
-                input[type='radio']:checked:after {
-                    width: 10px;
-                    height: 10px;
-                    border-radius: 15px;
-                    top: 0px;
-                    left: 0px;
-                    position: relative;
-                    background-color: var(--accent);
-                    box-shadow: 0 0 10px 3px rgba(0, 106, 255, 0.672);
-                    content: '';
-                    display: inline-block;
-                    visibility: visible;
-                    border: 2px solid var(--accent);
-                    cursor: pointer;
-                }
+                // input[type='radio']:checked:after {
+                //     width: 10px;
+                //     height: 10px;
+                //     border-radius: 15px;
+                //     top: 0px;
+                //     left: 0px;
+                //     position: relative;
+                //     background-color: var(--accent);
+                //     box-shadow: 0 0 10px 3px rgba(0, 106, 255, 0.672);
+                //     content: '';
+                //     display: inline-block;
+                //     visibility: visible;
+                //     border: 2px solid var(--accent);
+                //     cursor: pointer;
+                // }
 
                 label {
                     font-weight: bold;
